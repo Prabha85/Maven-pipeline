@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/https://github.com/Prabha85/' // Your Git repository
+                git 'https://github.com/https://github.com/Prabha85/Maven-pipeline/.settings/pipeline.java' 
             }
         }
         stage('Build') {
